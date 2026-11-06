@@ -1,0 +1,14 @@
+# Policy Change Monitor
+
+> Watch terms of service or privacy policies and report exactly what changed.
+
+- Actor: data_foundry/policy-change-monitor
+- URL: https://apify.com/data_foundry/policy-change-monitor
+- Publisher: Data Foundry (https://apify.com/data_foundry)
+- Category: Compliance / monitoring
+- Pricing: $2.00 per 1,000 pages checked; pay per event, no subscription, failures not billed
+- Input: policy URLs (HTML or PDF)
+- Output: line-level diff, similarity score, replaced and beyond-window flags
+- Run: apify call data_foundry/policy-change-monitor
+- API: POST https://api.apify.com/v2/acts/data_foundry~policy-change-monitor/runs
+- More actors: https://apify.com/data_foundry
